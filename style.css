@@ -5,62 +5,64 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to right, #6a11cb, #2575fc); /* New Purple-Blue Gradient */
-    color: #fff;
+    background: #000; /* Pure Black Background */
+    color: #fff; /* White Text */
     text-align: center;
 }
 
 /* Header Section */
 header {
-    background: linear-gradient(to right, #3b0d82, #1e3c72); /* Darker Purple */
-    padding: 25px;
-    font-size: 1.5rem;
+    background: #111; /* Slightly Lighter Black */
+    padding: 30px;
+    font-size: 1.8rem;
     text-transform: uppercase;
     letter-spacing: 2px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
 }
 
 .email {
     font-size: 1rem;
     font-weight: 300;
-    color: #ffcc00;
+    color: #ffcc00; /* Gold Accent */
 }
 
 /* Sections */
 section {
-    margin: 30px auto;
-    padding: 20px;
+    margin: 50px auto; /* Increased spacing between sections */
+    padding: 25px;
     width: 80%;
-    background: rgba(255, 255, 255, 0.15);
+    background: rgba(255, 255, 255, 0.1); /* Light transparent effect */
     border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(8px);
 }
 
 /* Section Headings */
 h2 {
-    color: #ffeb3b;
-    font-size: 1.8rem;
+    color: #ffeb3b; /* Yellowish-Gold for headings */
+    font-size: 2rem;
     text-transform: uppercase;
-    margin-bottom: 15px;
+    margin-bottom: 25px; /* More space below headings */
 }
 
 /* Experience & Projects */
 .experience, .project {
-    background: rgba(0, 0, 0, 0.5);
-    padding: 15px;
-    margin: 15px 0;
+    background: rgba(255, 255, 255, 0.08);
+    padding: 20px;
+    margin: 20px 0; /* Increased spacing */
     border-radius: 10px;
     text-align: left;
 }
 
 .experience h3, .project h3 {
     color: #00d9ff; /* Cyan Blue */
+    font-size: 1.5rem;
+    margin-bottom: 15px; /* More spacing */
 }
 
 .experience p, .project p {
-    color: #eee;
-    font-size: 1rem;
+    color: #ddd;
+    font-size: 1.1rem;
 }
 
 /* Skills */
@@ -70,19 +72,19 @@ h2 {
 }
 
 .skills li {
-    background: linear-gradient(to right, #00d9ff, #2575fc); /* Cyan-Blue Gradient */
+    background: #222; /* Dark Grey */
     color: white;
     display: inline-block;
-    padding: 10px 18px;
-    margin: 6px;
+    padding: 12px 20px;
+    margin: 8px;
     border-radius: 12px;
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     transition: all 0.3s ease-in-out;
 }
 
 .skills li:hover {
-    background: linear-gradient(to right, #2575fc, #00d9ff); /* Reverse on Hover */
+    background: #444; /* Slightly lighter grey */
     transform: scale(1.1);
 }
 
@@ -94,25 +96,22 @@ h2 {
 
 .social-links li {
     display: inline;
-    margin: 0 10px;
+    margin: 0 15px;
 }
 
 .social-links a {
     color: #00d9ff; /* Cyan Blue */
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: bold;
 }
 
 /* Footer */
 footer {
-    margin-top: 20px;
-    padding: 15px;
-    background: linear-gradient(to right, #3b0d82, #1e3c72);
+    margin-top: 30px;
+    padding: 20px;
+    background: #111;
     color: #ffeb3b;
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: bold;
 }
-
-
-
